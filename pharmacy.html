@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pharmacy</title>
+    <link rel="stylesheet" href="./styles/phramacy.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index1.html"><img src="./index1images/logo2.png" alt="Logo"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index1.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="doctors.html">Doctors</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="reservation.html">Reservations</a></li>
+                <li><a href="pharmacy.html">Pharmacy</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="head1">
+        Pharmacy 
+    </div>
+    <div class="desc2">
+    <h2>Welcome to Vinzeres Pharmacy</h2>
+    <p class="p1">At Vinzeres Pharmacy, we're committed to supporting our clients' health and wellbeing by 
+        offering premium prescription drugs at reasonable costs. From over-the-counter pain 
+        relievers to prescription drugs for long-term illnesses, we provide a comprehensive 
+        selection of necessary pharmaceuticals to meet all of your healthcare needs with 
+        dependability and compassion.
+    </p>
+    <p  class="p1">
+        A detailed table with all of our available medications and their costs may be seen below. 
+        Please use the table to choose the product you require, then complete the form 
+        to place your order. Our staff will handle your request and make sure 
+        your prescriptions are delivered on time. Make sure to repeat process until you aquire all the medicines you need .
+    </p>
+    <p  class="p1">We appreciate your confidence in Vinzeres Pharmacy to meet your medical needs.</p>
+    </div>
+    <div class="container11">
+        <table border="1" cellpadding="10" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Medicine Name</th>
+                    <th>Price (USD)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Paracetamol 500mg</td>
+                    <td>$5.00</td>
+                </tr>
+                <tr>
+                    <td>Ibuprofen 200mg</td>
+                    <td>$7.50</td>
+                </tr>
+                <tr>
+                    <td>Amoxicillin 500mg</td>
+                    <td>$15.00</td>
+                </tr>
+                <tr>
+                    <td>Cetirizine 10mg</td>
+                    <td>$8.00</td>
+                </tr>
+                <tr>
+                    <td>Azithromycin 250mg</td>
+                    <td>$12.50</td>
+                </tr>
+                <tr>
+                    <td>Metformin 500mg</td>
+                    <td>$10.00</td>
+                </tr>
+                <tr>
+                    <td>Atorvastatin 20mg</td>
+                    <td>$18.00</td>
+                </tr>
+                <tr>
+                    <td>Omeprazole 20mg</td>
+                    <td>$9.50</td>
+                </tr>
+                <tr>
+                    <td>Losartan 50mg</td>
+                    <td>$11.00</td>
+                </tr>
+                <tr>
+                    <td>Amlodipine 5mg</td>
+                    <td>$10.50</td>
+                </tr>
+            </tbody>
+        </table>
+    
+        <table border="1" cellpadding="10" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Medicine Name</th>
+                    <th>Price (USD)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Lisinopril 10mg</td>
+                    <td>$8.75</td>
+                </tr>
+                <tr>
+                    <td>Levothyroxine 50mcg</td>
+                    <td>$6.50</td>
+                </tr>
+                <tr>
+                    <td>Simvastatin 40mg</td>
+                    <td>$14.00</td>
+                </tr>
+                <tr>
+                    <td>Pantoprazole 40mg</td>
+                    <td>$9.00</td>
+                </tr>
+                <tr>
+                    <td>Albuterol Inhaler</td>
+                    <td>$25.00</td>
+                </tr>
+                <tr>
+                    <td>Warfarin 5mg</td>
+                    <td>$20.00</td>
+                </tr>
+                <tr>
+                    <td>Clopidogrel 75mg</td>
+                    <td>$22.00</td>
+                </tr>
+                <tr>
+                    <td>Furosemide 40mg</td>
+                    <td>$7.00</td>
+                </tr>
+                <tr>
+                    <td>Hydrochlorothiazide 25mg</td>
+                    <td>$5.50</td>
+                </tr>
+                <tr>
+                    <td>Doxycycline 100mg</td>
+                    <td>$16.00</td>
+                </tr>
+            </tbody>
+        </table>
+    
+        <form method="post">
+            <h3>Order Your Medicine</h3>
+    
+            <label for="medicine-name">Medicine Name</label><br>
+            <input type="text" id="medicine-name" name="medicine-name" placeholder="Enter the medicine name" required><br><br>
+    
+            <label for="quantity">Quantity</label><br>
+            <input type="number" id="quantity" name="quantity" placeholder="Enter the quantity" required><br><br>
+    
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+            
+            <label>Is this one of your favorite medicines?</label><br>
+            <input type="radio" id="favorite-yes" name="is-favorite" value="Yes" required>
+            <label for="favorite-yes">Yes</label><br>
+    
+            <input type="radio" id="favorite-no" name="is-favorite" value="No" required >
+            <label for="favorite-no">No</label><br><br>
+    
+            <a href="payments.html" id="submit-link" class="submit-button">Proceed to Payment</a>
+        </form>
+    </div>
+    
+    <footer>
+        <div class="fcontainer">
+            <div class="fsection">
+                <h1>About Us</h1>
+                <p>Delivering compassionate, individualized treatment together with top-notch medical care. We put your health and well-being first.</p>
+            </div>
+            <div class="fsection">
+                <h1>Fast Links</h1>
+                <ul>
+                    <li><a href="index1.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="doctors.html">Doctors</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="reservation.html">Reservations</a></li>
+                    <li><a href="pharmacy.html">Pharmacy</a></li>
+                    <li><a href="register.html">Register</a></li>
+                </ul>
+            </div>
+            <div class="fsection">
+                <h1>Contact Us</h1>
+                <p>Call Us: +1 (800) 123-4567</p>
+                <p>Email: info@vinzereshospital.com</p>
+            </div>
+        </div>
+        <div class="footer-end">
+            <p>2024 Vinzeres Hospital. All Rights Reserved.</p>
+        </div>
+    </footer>
+    
+</body>
+</html>

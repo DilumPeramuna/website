@@ -1,0 +1,113 @@
+#head1{
+    margin-top: 160px;
+    color:rgb(67, 230, 80);
+    margin-left: 40px;
+    left:50%;
+    font-weight: bold;
+    font-size: 3em;
+    margin-bottom: 50px;
+    background-color: #ffffff;
+    margin-right: 85%;
+    border-radius: 15px;
+    height: 70px;
+    text-align: center;
+}
+header {
+    opacity: 90%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 80px;
+    width: 1260px;
+    margin-left: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3A86FF;
+    padding: 20px;
+    color: white;
+}
+.logo img {
+    height: 100px;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+form {
+    font-family: Arial, sans-serif;
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #a0a0a0;
+    border-radius: 8px;
+}
+
+form h3 {
+    text-align: center;
+    color: #333;
+}
+
+label {
+    font-size: 14px;
+    color: #555;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #a3a3a3;
+    border-radius: 4px;
+}
+
+input[type="radio"] {
+    margin-right: 8px;
+}
+
+.bs{
+    font-size: 14px;
+    margin-right: 20px;
+}
+
+.submit-button {
+    display: inline-block;
+    width: 100%;
+    padding: 12px;
+    text-align: center;
+    background-color: #28a745;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.submit-button:hover {
+    background-color: #19792e;
+}
+h4{
+    margin-left: 40px;
+    font-size: 28px;
+}

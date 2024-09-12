@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payments</title>
+    <link rel="stylesheet" href="./styles/payments.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index1.html"><img src="./index1images/logo2.png" alt="Logo"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index1.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="doctors.html">Doctors</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="reservation.html">Reservations</a></li>
+                <li><a href="pharmacy.html">Pharmacy</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div id="head1">
+        Payments 
+    </div>
+    <form method="post">
+        <h3>Order Your Medicines</h3>
+    
+        <label for="fname">Full Name</label><br>
+        <input type="text" id="fname" name="fname" placeholder="Enter your full name" required><br><br>
+    
+        <label for="address">Address</label><br>
+        <input type="text" id="address" name="address" placeholder="Enter your address" required><br><br>
+    
+        <label for="zipcode">ZIP / Postal Code</label><br>
+        <input type="text" id="zipcode" name="zipcode" placeholder="Enter ZIP code" required><br><br>
+    
+        <!-- Branch Selection -->
+        <label>Which branch are you ordering from?</label><br>
+        <input type="radio" id="dubai" name="branch" value="Dubai" required>
+        <label for="dubai" class="bs">Dubai Branch</label><br>
+    
+        <input type="radio" id="india" name="branch" value="India" required>
+        <label for="india" class="bs">India Branch</label><br>
+    
+        <input type="radio" id="canada" name="branch" value="Canada" required>
+        <label for="canada" class="bs">Canada Branch</label><br><br>
+    
+        <!-- Payment Information -->
+        <label for="cname">Name on Card</label><br>
+        <input type="text" id="cname" name="cname" placeholder="Enter the name on your card" required><br><br>
+    
+        <label for="cardnumber">Card Number</label><br>
+        <input type="text" id="cardnumber" name="cardnumber" placeholder="Enter your card number" required><br><br>
+    
+        <label for="exdate">Expiry Date (MM/YY)</label><br>
+        <input type="text" id="exdate" name="exdate" placeholder="MM/YY" required><br><br>
+    
+        <label for="cvv">CVV</label><br>
+        <input type="text" id="cvv" name="cvv" placeholder="Enter your CVV" required><br><br>
+    
+        <!-- Submit Button -->
+        <a href="#thanks" id="submit-link" class="submit-button">Pay</a>
+    </form>
+    <h4 id="thanks">Thank you for choosing Vinzeres!</h4>
+</body>
+</html>
